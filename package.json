@@ -47,8 +47,7 @@
   "main": "dist/commonjs/index.js",
   "module": "dist/native-modules/index.js",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "bugs": {
     "url": "https://github.com/bindable-ui/bindable-icons/issues"
