@@ -3,10 +3,10 @@
   "description": "An Aurelia plugin project.",
   "version": "0.1.0",
   "repository": {
-    "type": "???",
-    "url": "???"
+    "type": "git",
+    "url": "https://github.com/bindable-ui/bindable-icons"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^13.7.6",
     "aurelia-animator-css": "^1.0.4",
@@ -46,9 +46,12 @@
   },
   "main": "dist/commonjs/index.js",
   "module": "dist/native-modules/index.js",
-  "private": true,
   "files": [
     "dist",
     "src"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/bindable-ui/bindable-icons/issues"
+  },
+  "homepage": "https://bindable-ui.com"
 }
