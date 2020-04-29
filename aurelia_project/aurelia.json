@@ -16,7 +16,6 @@
       "./types/**/*.d.ts"
     ],
     "source": [
-      "dev-app/**/*.ts",
       "src/**/*.ts"
     ]
   },
@@ -30,39 +29,20 @@
   },
   "markupProcessor": {
     "source": [
-      "dev-app/**/*.html",
       "src/**/*.html"
     ]
   },
   "cssProcessor": {
     "source": [
-      "dev-app/**/*.css",
       "src/**/*.css"
     ]
   },
   "jsonProcessor": {
     "source": [
-      "dev-app/**/*.json",
       "src/**/*.json"
     ]
   },
-  "platform": {
-    "port": 9000,
-    "host": "localhost",
-    "open": false,
-    "index": "index.html",
-    "baseDir": ".",
-    "output": "scripts"
-  },
   "build": {
-    "targets": [
-      {
-        "port": 9000,
-        "index": "index.html",
-        "baseDir": ".",
-        "output": "scripts"
-      }
-    ],
     "options": {
       "minify": "stage & prod",
       "sourcemaps": "dev & stage",

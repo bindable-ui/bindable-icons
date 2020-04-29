@@ -1,5 +1,5 @@
 {
-  "name": "bindable-icons",
+  "name": "@bindable-ui/bindable-icons",
   "description": "An Aurelia plugin project.",
   "version": "0.1.0",
   "repository": {
@@ -39,8 +39,6 @@
   },
   "scripts": {
     "build": "au build-plugin",
-    "start": "au run",
-    "watch": "au build-plugin --watch",
     "prepare": "npm run build"
   },
   "engines": {
