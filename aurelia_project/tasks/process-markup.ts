@@ -5,7 +5,7 @@ import * as svgstore from 'gulp-svgstore';
 import * as inject from 'gulp-inject';
 
 const fileContents = (_filePath, file) => {
-  return file.contents.toString();
+  return file.contents.toString().replace(/\<svg /g, '<svg display="none" ');
 };
 
 export function pluginMarkup(dest) {
